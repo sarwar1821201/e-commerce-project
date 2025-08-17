@@ -3,9 +3,9 @@ import React from 'react'
 const Navbar = () => {
 
    const navOptions= <>
-      <li><a>Item 1</a></li>
-      <li> <a>Parent</a></li>
-      <li><a>Item 3</a></li>
+      <li><a>Home</a></li>
+      <li> <a>Menu</a></li>
+      <li><a>Contact</a></li>
    </>
 
   return (
@@ -22,7 +22,7 @@ const Navbar = () => {
          {navOptions}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Eco Mart</a>
+    <a className="btn btn-ghost text-xl">Cafe Rio</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
