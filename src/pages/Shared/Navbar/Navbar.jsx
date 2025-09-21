@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
    const navOptions= <>
-      <li><a>Home</a></li>
-      <li> <a>Menu</a></li>
+      <li><Link to="/" >Home</Link></li>
+      <li> <Link to="/menu" >Our  Menu</Link></li>
       <li><a>Contact</a></li>
    </>
 
@@ -22,7 +23,7 @@ const Navbar = () => {
          {navOptions}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Cafe Rio</a>
+    <a className="btn btn-ghost text-xl">E-Commerce Arena</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
